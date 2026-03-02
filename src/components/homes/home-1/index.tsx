@@ -4,11 +4,11 @@ import ServiceHomeOne from './ServiceHomeOne';
 import StatSection from './StatSection';
 import ChooseUsHomeOne from './ChooseUsHomeOne';
 import IndustryServeHomeOne from './IndustryServeHomeOne';
-import ProjectHomeOne from './ProjectHomeOne';
-import TeamHomeOne from './TeamHomeOne';
+
+
 import ProcessHomeOne from './ProcessHomeOne';
 import CtaHomeOne from './CtaHomeOne';
-import PricingHomeOne from './PricingHomeOne';
+
 import TestimonialHomeOne from './TestimonialHomeOne';
 import BlogHomeOne from './BlogHomeOne';
 import Wrapper from '../../../layouts/Wrapper';
