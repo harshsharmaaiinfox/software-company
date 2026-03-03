@@ -6,19 +6,19 @@ export default function ChooseUsHomeOne() {
             title: "We excel in creativity",
             desc: "We create your Identity. We trust that imagination is crucial to progress. Inventiveness is something that ought to be clear as well, regardless of whether it is tied in with creating, planning or composing something.",
             icon: "fa-light fa-lightbulb-on",
-            color: "#2B4DFF"
+            color: "#047C97"
         },
         {
             title: "Professionalism is our priority",
             desc: "The interesting proficient conduct of Edgiss makes you want to try us since we don't pursue the benefits in actuality we work genuinely to satisfy our customers desires.",
             icon: "fa-light fa-briefcase",
-            color: "#2B4DFF"
+            color: "#047C97"
         },
         {
             title: "Full-time customer assistance",
             desc: "We give the most ideal help as far as security, on-time administrations, openness and support. We bolster you for the smooth activity of your business.",
             icon: "fa-light fa-headset",
-            color: "linear-gradient(135deg, #2B4DFF, #1a3ae0)"
+            color: "linear-gradient(135deg, #047C97, #036278)"
         }
     ];
 
@@ -27,19 +27,19 @@ export default function ChooseUsHomeOne() {
             {/* Decorative background pattern */}
             <div style={{ position: 'absolute', top: 0, right: 0, opacity: 0.03, pointerEvents: 'none' }}>
                 <svg width="600" height="600" viewBox="0 0 100 100">
-                    <circle cx="100" cy="0" r="80" fill="#2B4DFF" />
+                    <circle cx="100" cy="0" r="80" fill="#047C97" />
                 </svg>
             </div>
 
             <div className="container">
                 <div className="row justify-content-center mb-60">
                     <div className="col-xl-8 col-lg-10 text-center">
-                        <span className="tv-section-subtitle mb-20 d-inline-block" style={{ color: '#2B4DFF', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', fontSize: '14px' }}>
+                        <span className="tv-section-subtitle mb-20 d-inline-block" style={{ color: '#047C97', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', fontSize: '14px' }}>
                             What Makes You Choose Us?
                         </span>
                         <h2 style={{ fontSize: '46px', fontWeight: 900, color: '#1a1a2e', lineHeight: 1.2 }}>
-                            Why The <span style={{ color: '#2B4DFF' }}>EDGISS</span> Ranked Top Among Leading <br />
-                            <span style={{ color: '#2B4DFF' }}>Web & App Development</span> Companies
+                            Why The <span style={{ color: '#047C97' }}>EDGISS</span> Ranked Top Among Leading <br />
+                            <span style={{ color: '#047C97' }}>Web & App Development</span> Companies
                         </h2>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ export default function ChooseUsHomeOne() {
                                 left: '40px',
                                 bottom: '-20px',
                                 right: '-20px',
-                                background: 'rgba(43,77,255,0.06)',
+                                background: 'rgba(4,124,151,0.06)',
                                 borderRadius: '30px',
                                 zIndex: 0
                             }}></div>
@@ -105,7 +105,7 @@ export default function ChooseUsHomeOne() {
                                 border: '1px solid rgba(255,255,255,0.8)'
                             }}>
                                 <img
-                                    src="assets/img/partnership.png"
+                                    src="assets/img/collab.png"
                                     alt="Edgiss Business Partnership"
                                     style={{ width: '100%', height: 'auto', display: 'block' }}
                                 />
@@ -125,7 +125,7 @@ export default function ChooseUsHomeOne() {
                                 zIndex: 2
                             }}>
                                 <h3 style={{ fontSize: '28px', fontWeight: 900, color: '#1a1a2e', marginBottom: '15px' }}>
-                                    Let's Start a <span style={{ color: '#2B4DFF' }}>New Project</span> Together
+                                    Let's Start a <span style={{ color: '#047C97' }}>New Project</span> Together
                                 </h3>
                                 <p style={{ color: '#666', fontSize: '15px', marginBottom: '25px', lineHeight: 1.6 }}>
                                     We are your one stop destination to give a boost to your venture with boundless imagination and creative excellence.
@@ -137,12 +137,12 @@ export default function ChooseUsHomeOne() {
                                         display: 'inline-flex',
                                         alignItems: 'center',
                                         gap: '10px',
-                                        background: 'linear-gradient(90deg, #2B4DFF, #1a3ae0)',
+                                        background: 'linear-gradient(90deg, #047C97, #036278)',
                                         color: '#fff',
                                         padding: '16px 45px',
                                         borderRadius: '50px',
                                         fontWeight: 700,
-                                        boxShadow: '0 10px 30px rgba(43,77,255,0.3)',
+                                        boxShadow: '0 10px 30px rgba(4,124,151,0.3)',
                                         border: 'none'
                                     }}
                                 >

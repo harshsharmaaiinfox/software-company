@@ -84,6 +84,7 @@
   content: '';
   border-radius: 0 0 50px 0;
 }
+
 .it-contact-sumbit-box:before {
   left: auto;
   right: -40px;
@@ -97,6 +98,7 @@
   @media #{$xxxl} {
     background-size: 50% 100%;
   }
+
   @media #{$xxl} {
     background-size: 50% 100%;
   }
@@ -125,6 +127,7 @@
       position: absolute;
       left: 28%;
       margin-left: -40px;
+
       @media #{$md, $sm, $xs} {
         position: relative;
         left: 50%;
@@ -133,33 +136,41 @@
       }
     }
   }
+
   .tv-cta2-right {
     padding-left: 70px;
     color: var(--tv-common-white);
+
     @media #{$lg} {
       padding-left: 30px;
     }
+
     @media #{$md, $sm, $xs} {
       padding-left: 0;
     }
+
     h2 {
       font-size: 49px;
       color: var(--tv-common-white);
       margin-right: -100px;
-      @media #{$xxxl} {
-      }
+
+      @media #{$xxxl} {}
+
       @media #{$xxl} {
         margin-right: 0;
         font-size: 42px;
       }
+
       @media #{$xl} {
         margin-right: 0;
         font-size: 42px;
       }
+
       @media #{$lg} {
         margin-right: 0;
         font-size: 32px;
       }
+
       @media #{$md} {
         font-size: 32px;
       }
@@ -167,24 +178,30 @@
       @media #{$sm} {
         font-size: 32px;
       }
+
       @media #{$xs} {
         font-size: 32px;
       }
     }
+
     p {
       margin-bottom: 40px;
     }
+
     .tv-newsletter-form {
       width: 463px;
       position: relative;
+
       @media #{$lg, $md, $sm, $xs} {
         width: auto;
       }
+
       input {
         border-radius: 10px;
         padding: 20px 24px;
         height: 60px;
       }
+
       .tv-btn-primary {
         position: absolute;
         right: 2%;
@@ -193,6 +210,7 @@
         font-weight: 600;
         border-radius: 10px;
         transform: translateY(-50%);
+
         &:after {
           border-radius: 10px;
         }
@@ -227,6 +245,7 @@
 .cta-content {
   h1 {
     font-size: 80px;
+
     @media #{$lg} {
       /* 'only screen and (min-width: 992px) and (max-width: 1199px)' */
       font-size: 50px;
@@ -247,6 +266,7 @@
       font-size: 28px;
     }
   }
+
   p {
     font-size: 18px;
     margin: 40px 0;
@@ -257,11 +277,13 @@
       /* 'only screen and (min-width: 992px) and (max-width: 1199px)' */
       padding: 0;
     }
+
     @media #{$xs} {
       /* 'only screen and (min-width: 992px) and (max-width: 1199px)' */
       font-size: 16px;
     }
   }
+
   .tv-btn-primary {
     background-color: var(--tv-heading-primary);
   }
@@ -274,6 +296,7 @@
     background-color: var(--tv-common-white);
     padding: 40px;
     border-radius: 18px;
+
     p {
       font-size: 18px;
       font-weight: 400;
@@ -285,27 +308,32 @@
 
 .tv-contact-wrap-right {
   padding-left: 82px;
+
   @media #{$lg, $md, $sm, $xs} {
     /* 'only screen and (min-width: 992px) and (max-width: 1199px)' */
     padding-left: 0;
   }
+
   input {
     background-color: var(--tv-common-white);
-    border: 1px solid rgba(10, 22, 94, 0.1);
+    border: 1px solid rgba(3, 98, 120, 0.1);
     border-radius: 6px;
   }
+
   textarea {
     background-color: var(--tv-common-white);
-    border: 1px solid rgba(10, 22, 94, 0.1);
+    border: 1px solid rgba(3, 98, 120, 0.1);
     border-radius: 6px;
   }
+
   .nice-select {
     background-color: var(--tv-common-white);
-    border: 1px solid rgba(10, 22, 94, 0.1);
+    border: 1px solid rgba(3, 98, 120, 0.1);
     border-radius: 6px;
     height: 55px;
     line-height: 55px;
   }
+
   .tv-btn-primary {
     display: inline-block;
     width: auto;
@@ -360,44 +388,55 @@
 
 .tv-contact-wrap {
   padding: 60px;
+
   @media #{ $sm, $xs} {
     padding: 60px 30px;
   }
+
   box-shadow: 5px 8px 30px rgba(23, 36, 38, 0.08);
   border-radius: 50px 0 50px 0;
+
   .tv-contact-left-wrap {
     padding-right: 50px;
+
     @media #{$lg, $md, $sm, $xs} {
       .tv-section-title {
         font-size: 28px;
       }
     }
+
     @media #{$lg, $md, sm, $xs} {
       padding-right: 0;
+
       .tv-section-title {
         font-size: 28px;
       }
     }
   }
+
   .tv-contact-right-wrap {
     padding-left: 65px;
     background-color: var(--tv-theme-1);
     padding: 40px;
     border-radius: 50px 0 50px 0;
+
     @media #{$lg, $md, $sm, $xs} {
       h1 {
         font-size: 28px;
       }
     }
+
     p {
       margin-bottom: 37px;
       color: var(--tv-common-white);
     }
+
     input,
     textarea {
       background-color: var(--tv-common-white);
       border-radius: 10px 0 10px 0;
     }
+
     .tv-btn-primary {
       background-color: var(--tv-heading-primary);
     }
@@ -407,6 +446,7 @@
 .tv-map {
   width: 100%;
   height: 700px;
+
   @media #{$md, $sm, $xs} {
     height: 450px;
   }

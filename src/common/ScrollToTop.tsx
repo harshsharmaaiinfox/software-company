@@ -35,6 +35,7 @@ const ScrollToTop = () => {
       className={`scroll-top scroll-to-target ${isVisible ? 'open' : ''}`}
       onClick={scrollToTop}
       aria-label="Scroll to top"
+      style={{ background: '#4EB985' }}
     >
       <i className="far fa-angle-double-up"></i>
     </button>

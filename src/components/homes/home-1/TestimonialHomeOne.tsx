@@ -22,13 +22,13 @@ const settings = {
 
 const testimonials = [
   {
-    text: "“ The Edgiss transformed our outdated website into a high-converting masterpiece. Their blend of creativity and technical expertise is truly unmatched in the industry today. ”",
+    text: "“ Mangal Tech transformed our outdated website into a high-converting masterpiece. Their blend of creativity and technical expertise is truly unmatched in the industry today. ”",
     author: "Sarah Johnson",
     role: "CEO, TechCorp Solutions",
     avatar: "assets/img/testimonial/testi-avatar-1.png"
   },
   {
-    text: "“ Working with Edgiss was a game-changer for our software project. They decoded our complex market demands and delivered a tailored solution ahead of schedule. ”",
+    text: "“ Working with Mangal Tech was a game-changer for our software project. They decoded our complex market demands and delivered a tailored solution ahead of schedule. ”",
     author: "Michael Chen",
     role: "Founder, Innovate AI",
     avatar: "assets/img/testimonial/testi-avatar-1.png"
@@ -57,11 +57,11 @@ export default function TestimonialHomeOne() {
           <div className="col-xxl-4 col-xl-5 col-lg-6">
             <div className="testimonial-left-content">
               <div className="tv-section-title-box mb-40">
-                <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right" style={{ color: '#2B4DFF', fontWeight: 700 }}>
+                <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right" style={{ color: '#047C97', fontWeight: 700 }}>
                   Client Success
                 </span>
                 <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right" style={{ fontSize: '40px', fontWeight: 800, color: '#1a1a2e' }}>
-                  What Our Partners Say About Edgiss
+                  What Our Partners Say About Mangal Tech
                 </h4>
                 <p style={{ color: '#666', lineHeight: '1.8' }}>
                   We believe in building long-term partnerships through
@@ -69,10 +69,10 @@ export default function TestimonialHomeOne() {
                 </p>
               </div>
               <div className="tv-testi-arrow-box d-flex" style={{ gap: '15px' }}>
-                <button className="arrow-prev" style={{ width: '50px', height: '50px', borderRadius: '50%', border: '1px solid #ddd', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff', color: '#2B4DFF' }}>
+                <button className="arrow-prev" style={{ width: '50px', height: '50px', borderRadius: '50%', border: '1px solid #ddd', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff', color: '#047C97' }}>
                   <i className="fa-solid fa-arrow-left"></i>
                 </button>
-                <button className="arrow-next" style={{ width: '50px', height: '50px', borderRadius: '50%', border: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#2B4DFF', color: '#fff', boxShadow: '0 8px 15px rgba(43,77,255,0.2)' }}>
+                <button className="arrow-next" style={{ width: '50px', height: '50px', borderRadius: '50%', border: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#047C97', color: '#fff', boxShadow: '0 8px 15px rgba(4,124,151,0.2)' }}>
                   <i className="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
@@ -100,13 +100,13 @@ export default function TestimonialHomeOne() {
                         <img
                           src={testi.avatar}
                           alt={testi.author}
-                          style={{ width: '60px', height: '60px', borderRadius: '50%', marginRight: '20px', border: '3px solid rgba(43,77,255,0.1)' }}
+                          style={{ width: '60px', height: '60px', borderRadius: '50%', marginRight: '20px', border: '3px solid rgba(4,124,151,0.1)' }}
                         />
                         <div>
                           <h5 style={{ fontSize: '18px', fontWeight: 700, margin: 0, color: '#1a1a2e' }}>
                             {testi.author}
                           </h5>
-                          <span style={{ fontSize: '14px', color: '#2B4DFF', fontWeight: 600 }}>{testi.role}</span>
+                          <span style={{ fontSize: '14px', color: '#047C97', fontWeight: 600 }}>{testi.role}</span>
                         </div>
                       </div>
                       <img

@@ -58,7 +58,7 @@ export default function TestimonialHomeThree() {
                 Testimonial
               </span>
               <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right">
-                What Our Clients Ask <br /> About Techor
+                What Our Clients Ask <br /> About Mangal Tech
               </h4>
             </div>
           </div>

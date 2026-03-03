@@ -34,7 +34,7 @@ export default function BlogHomeOne() {
         <div className="row align-items-end">
           <div className="col-xl-6 col-lg-6">
             <div className="tv-section-title-box">
-              <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right" style={{ color: '#2B4DFF', fontWeight: 700 }}>
+              <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right" style={{ color: '#047C97', fontWeight: 700 }}>
                 Our Latest Insights
               </span>
               <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right" style={{ fontSize: '42px', fontWeight: 800, color: '#1a1a2e' }}>
@@ -49,7 +49,7 @@ export default function BlogHomeOne() {
               data-ease="bounce"
               data-delay=".5"
             >
-              <Link to="/blog-details" className="tv-btn-primary p-relative" style={{ background: '#2B4DFF', padding: '15px 40px', borderRadius: '50px', border: 'none' }}>
+              <Link to="/blog-details" className="tv-btn-primary p-relative" style={{ background: '#047C97', padding: '15px 40px', borderRadius: '50px', border: 'none' }}>
                 <span className="btn-wrap">
                   <span className="btn-text1">View All Insights</span>
                   <span className="btn-text2">View All Insights</span>
@@ -75,7 +75,7 @@ export default function BlogHomeOne() {
                     overflow: 'hidden',
                     background: '#fff',
                     border: '1px solid #f0f3ff',
-                    boxShadow: '0 15px 45px rgba(43,77,255,0.05)',
+                    boxShadow: '0 15px 45px rgba(4,124,151,0.05)',
                     transition: 'all 0.3s ease'
                   }}
                 >
@@ -84,7 +84,7 @@ export default function BlogHomeOne() {
                   </div>
                   <div className="blog-content" style={{ padding: '30px' }}>
                     <div className="blog-meta" style={{ marginBottom: '15px', color: '#666', fontSize: '14px', display: 'flex', gap: '20px' }}>
-                      <span className="author" style={{ fontWeight: 600, color: '#2B4DFF' }}><i className="fa-solid fa-user" style={{ marginRight: '8px' }}></i>{blog.author}</span>
+                      <span className="author" style={{ fontWeight: 600, color: '#047C97' }}><i className="fa-solid fa-user" style={{ marginRight: '8px' }}></i>{blog.author}</span>
                       <span className="date"><i className="fa-solid fa-calendar-days" style={{ marginRight: '8px' }}></i>{blog.date}</span>
                     </div>
                     <h2 style={{ fontSize: blog.isLarge ? '26px' : '20px', fontWeight: 800, lineHeight: 1.4 }}>
@@ -93,7 +93,7 @@ export default function BlogHomeOne() {
                       </Link>
                     </h2>
                     <div style={{ marginTop: '20px' }}>
-                      <Link to="/blog-details" style={{ color: '#2B4DFF', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px', fontSize: '14px' }}>
+                      <Link to="/blog-details" style={{ color: '#047C97', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px', fontSize: '14px' }}>
                         Read More <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>

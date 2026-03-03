@@ -16,6 +16,15 @@ import BlogGrid from './components/blog-grid';
 import BlogList from './components/blog-list';
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
+import WebDevelopment from './components/web-development';
+import EcommerceDevelopment from './components/ecommerce-development';
+import MobileAppDevelopment from './components/mobile-app-development';
+import AndroidAppDevelopment from './components/android-app-development/index.tsx';
+import LogoDesigning from './components/logo-designing';
+import IosAppDevelopment from './components/ios-app-development/index.tsx';
+import ShopifyDevelopment from './components/shopify-development/index.tsx';
+import DigitalMarketing from './components/digital-marketing/index.tsx';
+import SeoService from './components/seo-service/index.tsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <HomeOne /> },
@@ -24,11 +33,20 @@ const router = createBrowserRouter([
   { path: '/about', element: <About /> },
   { path: '/service', element: <Service /> },
   { path: '/service-details', element: <ServiceDetails /> },
+  { path: '/web-development', element: <WebDevelopment /> },
+  { path: '/ecommerce-development', element: <EcommerceDevelopment /> },
+  { path: '/mobile-app-development', element: <MobileAppDevelopment /> },
+  { path: '/android-app-development', element: <AndroidAppDevelopment /> },
+  { path: '/ios-app-development', element: <IosAppDevelopment /> },
+  { path: '/shopify-development', element: <ShopifyDevelopment /> },
+  { path: '/digital-marketing', element: <DigitalMarketing /> },
+  { path: '/seo-optimization', element: <SeoService /> },
+  { path: '/logo-designing', element: <LogoDesigning /> },
   { path: '/team', element: <Team /> },
   { path: '/team-details', element: <TeamDetails /> },
   { path: '/price', element: <Price /> },
   { path: '/project', element: <Project /> },
-  { path: '/project-details', element: <ProjectDetails /> },
+  { path: '/project-details/:id', element: <ProjectDetails /> },
   { path: '/faq', element: <Faq /> },
   { path: '/blog-grid', element: <BlogGrid /> },
   { path: '/blog-list', element: <BlogList /> },

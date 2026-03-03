@@ -31,9 +31,9 @@ export default function FooterTwo() {
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:techor@example.com">
+                        <a href="mailto:Mangal Tech@example.com">
                           <i className="fa-solid fa-envelope"></i>
-                          techor@example.com
+                          Mangal Tech@example.com
                         </a>
                       </li>
                     </ul>
@@ -123,7 +123,7 @@ export default function FooterTwo() {
                 <div className="col-lg-6">
                   <div className="tv-copyright-left text-center text-lg-start">
                     <p className="mb-0">
-                      © 2025 <a href="#">Techor</a>All Rights Reserved, Created
+                      © 2025 <a href="#">Mangal Tech</a>All Rights Reserved, Created
                       by <a href="#">HurrayTheme</a>
                     </p>
                   </div>

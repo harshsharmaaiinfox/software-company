@@ -18,7 +18,7 @@ export default function AboutHomeOne() {
           right: '-80px',
           width: '400px',
           height: '400px',
-          background: 'radial-gradient(circle, rgba(43,77,255,0.06) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(4,124,151,0.06) 0%, transparent 70%)',
           borderRadius: '50%',
           pointerEvents: 'none',
         }}
@@ -30,7 +30,7 @@ export default function AboutHomeOne() {
           left: '-60px',
           width: '350px',
           height: '350px',
-          background: 'radial-gradient(circle, rgba(43,77,255,0.04) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(78,185,133,0.04) 0%, transparent 70%)',
           borderRadius: '50%',
           pointerEvents: 'none',
         }}
@@ -51,7 +51,7 @@ export default function AboutHomeOne() {
                   left: '-20px',
                   right: '-20px',
                   bottom: '-20px',
-                  border: '2px dashed rgba(43,77,255,0.2)',
+                  border: '2px dashed rgba(4,124,151,0.2)',
                   borderRadius: '24px',
                   zIndex: 0,
                 }}
@@ -62,15 +62,15 @@ export default function AboutHomeOne() {
                 style={{
                   position: 'relative',
                   zIndex: 1,
-                  background: 'linear-gradient(145deg, #f0f3ff 0%, #e8eeff 100%)',
+                  background: 'linear-gradient(145deg, #f0f8ff 0%, #e8f4ff 100%)',
                   borderRadius: '24px',
                   padding: '32px',
-                  boxShadow: '0 30px 80px rgba(43,77,255,0.12)',
+                  boxShadow: '0 30px 80px rgba(4,124,151,0.12)',
                   textAlign: 'center',
                 }}
               >
                 <img
-                  src="assets/img/about/about-image.png"
+                  src="assets/img/about.png"
                   alt="Edgiss Partnership"
                   style={{
                     width: '100%',
@@ -78,7 +78,7 @@ export default function AboutHomeOne() {
                     height: 'auto',
                     display: 'block',
                     margin: '0 auto',
-                    filter: 'drop-shadow(0 10px 30px rgba(43,77,255,0.15))',
+                    filter: 'drop-shadow(0 10px 30px rgba(4,124,151,0.15))',
                   }}
                 />
               </div>
@@ -99,7 +99,7 @@ export default function AboutHomeOne() {
                   border: '1px solid #f0f3ff'
                 }}
               >
-                <div style={{ fontSize: '28px', fontWeight: 800, color: '#2B4DFF', lineHeight: 1 }}>150+</div>
+                <div style={{ fontSize: '28px', fontWeight: 800, color: '#047C97', lineHeight: 1 }}>150+</div>
                 <div style={{ fontSize: '12px', color: '#666', marginTop: '4px', fontWeight: 500 }}>Projects Done</div>
               </div>
 
@@ -109,10 +109,10 @@ export default function AboutHomeOne() {
                   position: 'absolute',
                   bottom: '24px',
                   left: '-24px',
-                  background: 'linear-gradient(135deg, #2B4DFF 0%, #1a3ae0 100%)',
+                  background: 'linear-gradient(135deg, #036278 0%, #047C97 100%)',
                   borderRadius: '16px',
                   padding: '14px 20px',
-                  boxShadow: '0 12px 40px rgba(43,77,255,0.3)',
+                  boxShadow: '0 12px 40px rgba(4,124,151,0.3)',
                   zIndex: 2,
                   minWidth: '130px',
                   textAlign: 'center',
@@ -122,44 +122,7 @@ export default function AboutHomeOne() {
                 <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.85)', marginTop: '4px', fontWeight: 500 }}>Client Rating</div>
               </div>
 
-              {/* Floating experience badge — bottom right */}
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-16px',
-                  right: '32px',
-                  background: '#fff',
-                  borderRadius: '50px',
-                  padding: '10px 20px',
-                  boxShadow: '0 8px 30px rgba(0,0,0,0.08)',
-                  zIndex: 2,
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px',
-                  border: '1px solid #f0f3ff'
-                }}
-              >
-                <div
-                  style={{
-                    width: '36px',
-                    height: '36px',
-                    borderRadius: '50%',
-                    background: 'linear-gradient(135deg, #2B4DFF, #647eff)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="white" />
-                  </svg>
-                </div>
-                <div>
-                  <div style={{ fontSize: '13px', fontWeight: 700, color: '#1a1a2e' }}>8+ Years</div>
-                  <div style={{ fontSize: '11px', color: '#999' }}>Experience</div>
-                </div>
-              </div>
+
 
             </div>
           </div>
@@ -170,12 +133,12 @@ export default function AboutHomeOne() {
 
               {/* Top label */}
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-                <div style={{ width: '36px', height: '3px', background: 'linear-gradient(90deg, #2B4DFF, #647eff)', borderRadius: '2px' }} />
+                <div style={{ width: '36px', height: '3px', background: 'linear-gradient(90deg, #4EB985, #047C97)', borderRadius: '2px' }} />
                 <span
                   style={{
                     fontSize: '13px',
                     fontWeight: 700,
-                    color: '#2B4DFF',
+                    color: '#047C97',
                     letterSpacing: '2px',
                     textTransform: 'uppercase',
                   }}
@@ -197,7 +160,7 @@ export default function AboutHomeOne() {
                 About{' '}
                 <span
                   style={{
-                    color: '#2B4DFF'
+                    color: '#047C97'
                   }}
                 >
                   us
@@ -206,7 +169,7 @@ export default function AboutHomeOne() {
 
               {/* Paragraph 1 */}
               <p style={{ color: '#555', lineHeight: 1.85, marginBottom: '18px', fontSize: '15.5px' }}>
-                Welcome to <strong style={{ color: '#1a1a2e' }}>THE EDGISS</strong> – our commitment to creativity and
+                Welcome to <strong style={{ color: '#1a1a2e' }}>Mangal Tech</strong> – our commitment to creativity and
                 unwavering dedication has positioned us among the foremost industry leaders. Our
                 diverse portfolio attests to our versatile capabilities, spanning a comprehensive
                 360 degrees of expertise that includes Ecommerce, software development,
@@ -215,43 +178,86 @@ export default function AboutHomeOne() {
 
               {/* Paragraph 2 */}
               <p style={{ color: '#555', lineHeight: 1.85, marginBottom: '28px', fontSize: '15.5px' }}>
-                At <strong style={{ color: '#1a1a2e' }}>THE EDGISS</strong>, our dynamic team is driven to craft
+                At <strong style={{ color: '#1a1a2e' }}>Mangal Tech</strong>, our dynamic team is driven to craft
                 unparalleled solutions for your company's success. We take pride in our ability
                 to decode market demands and engineer tailored solutions that fit seamlessly
                 into any wireframe.
               </p>
 
               {/* Feature list */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '28px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', marginBottom: '32px' }}>
                 {[
-                  { icon: '🚀', label: 'Ecommerce & Web Development' },
-                  { icon: '🎨', label: 'Creative Design & Branding' },
-                  { icon: '📱', label: 'App Development & CMS Solutions' },
-                ].map((item) => (
+                  {
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                        <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+                        <path d="M9 12H4s.5-1 1-4c1.5 0 3 .5 4 2Z" />
+                        <path d="M12 15v5s1-.5 4-1c0-1.5-.5-3-2-4Z" />
+                      </svg>
+                    ),
+                    label: 'Ecommerce & Web Development'
+                  },
+                  {
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                        <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                        <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+                        <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                        <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.7-.71 1.7-1.63 0-.44-.19-.85-.49-1.15-.31-.3-.41-.74-.29-1.16.21-.71.86-1.21 1.6-1.21h1.98c4.14 0 7.5-3.36 7.5-7.5S17.52 2 12 2z" />
+                      </svg>
+                    ),
+                    label: 'Creative Design & Branding'
+                  },
+                  {
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="5" cy="2" width="14" height="20" rx="2" ry="2" />
+                        <path d="M12 18h.01" />
+                      </svg>
+                    ),
+                    label: 'App Development & CMS Solutions'
+                  },
+                ].map((item, idx) => (
                   <div
-                    key={item.label}
+                    key={idx}
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      gap: '12px',
+                      gap: '16px',
+                      padding: '10px 14px',
+                      borderRadius: '12px',
+                      transition: 'all 0.3s ease',
+                      cursor: 'default',
+                    }}
+                    onMouseEnter={(e) => {
+                      (e.currentTarget as HTMLDivElement).style.background = 'rgba(4,124,151,0.04)';
+                      (e.currentTarget as HTMLDivElement).style.transform = 'translateX(6px)';
+                    }}
+                    onMouseLeave={(e) => {
+                      (e.currentTarget as HTMLDivElement).style.background = 'transparent';
+                      (e.currentTarget as HTMLDivElement).style.transform = 'translateX(0)';
                     }}
                   >
                     <div
                       style={{
-                        width: '40px',
-                        height: '40px',
-                        borderRadius: '10px',
-                        background: 'rgba(43,77,255,0.08)',
+                        width: '46px',
+                        height: '46px',
+                        borderRadius: '12px',
+                        background: 'linear-gradient(135deg, #f0f8ff, #e6f4ff)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        fontSize: '18px',
+                        color: idx === 0 ? '#4EB985' : '#047C97',
                         flexShrink: 0,
+                        boxShadow: '0 4px 12px rgba(4,124,151,0.08)',
+                        border: '1px solid rgba(4,124,151,0.1)',
                       }}
                     >
                       {item.icon}
                     </div>
-                    <span style={{ fontWeight: 600, color: '#2d2d4e', fontSize: '15px' }}>{item.label}</span>
+                    <span style={{ fontWeight: 700, color: '#1a1a2e', fontSize: '16px' }}>{item.label}</span>
                   </div>
                 ))}
               </div>
@@ -259,8 +265,8 @@ export default function AboutHomeOne() {
               {/* Blockquote */}
               <div
                 style={{
-                  borderLeft: '4px solid #2B4DFF',
-                  background: 'rgba(43,77,255,0.03)',
+                  borderLeft: '4px solid #4EB985',
+                  background: 'rgba(78,185,133,0.03)',
                   padding: '18px 24px',
                   borderRadius: '0 12px 12px 0',
                   marginBottom: '36px',
@@ -280,41 +286,7 @@ export default function AboutHomeOne() {
                 </p>
               </div>
 
-              {/* Stats row */}
-              <div
-                style={{
-                  display: 'flex',
-                  gap: '32px',
-                  marginBottom: '36px',
-                  padding: '20px 24px',
-                  background: '#fff',
-                  borderRadius: '16px',
-                  boxShadow: '0 8px 30px rgba(0,0,0,0.04)',
-                  border: '1px solid #f0f3ff'
-                }}
-              >
-                {[
-                  { number: '150+', label: 'Projects' },
-                  { number: '80+', label: 'Clients' },
-                  { number: '8+', label: 'Years' },
-                ].map((stat) => (
-                  <div key={stat.label} style={{ textAlign: 'center', flex: 1 }}>
-                    <div
-                      style={{
-                        fontSize: '28px',
-                        fontWeight: 800,
-                        color: '#2B4DFF',
-                        lineHeight: 1,
-                      }}
-                    >
-                      {stat.number}
-                    </div>
-                    <div style={{ fontSize: '13px', color: '#888', marginTop: '4px', fontWeight: 500 }}>
-                      {stat.label}
-                    </div>
-                  </div>
-                ))}
-              </div>
+
 
               {/* CTA Button */}
               <div>
@@ -324,25 +296,25 @@ export default function AboutHomeOne() {
                     display: 'inline-flex',
                     alignItems: 'center',
                     gap: '10px',
-                    background: '#2B4DFF',
+                    background: '#047C97',
                     color: '#fff',
                     padding: '14px 32px',
                     borderRadius: '50px',
                     fontWeight: 700,
                     fontSize: '15px',
                     textDecoration: 'none',
-                    boxShadow: '0 8px 25px rgba(43,77,255,0.25)',
+                    boxShadow: '0 8px 25px rgba(4,124,151,0.25)',
                     transition: 'all 0.3s ease',
                   }}
                   onMouseEnter={(e) => {
                     (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-2px)';
-                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 12px 35px rgba(43,77,255,0.4)';
-                    (e.currentTarget as HTMLAnchorElement).style.background = '#1a3ae0';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 12px 35px rgba(4,124,151,0.4)';
+                    (e.currentTarget as HTMLAnchorElement).style.background = '#036278';
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
-                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 8px 25px rgba(43,77,255,0.25)';
-                    (e.currentTarget as HTMLAnchorElement).style.background = '#2B4DFF';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 8px 25px rgba(4,124,151,0.25)';
+                    (e.currentTarget as HTMLAnchorElement).style.background = '#047C97';
                   }}
                 >
                   Know More

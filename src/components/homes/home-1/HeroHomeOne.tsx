@@ -40,11 +40,11 @@ export default function HeroHomeOne() {
                 <div className="row">
                   <div className="col-xl-7 col-lg-8">
                     <div className="tv-slider-content z-index-1">
-                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #2B4DFF', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
+                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #4EB985', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
                         Creative Web Development Company
                       </span>
                       <h1 className="tv-slider-title p-relative" style={{ fontSize: '72px', color: '#fff', fontWeight: 900, marginBottom: '25px', lineHeight: 1.1 }}>
-                        Experience Over <br /> Everything <span style={{ color: '#2B4DFF' }}>Else</span>
+                        Experience Over <br /> Everything <span style={{ color: '#047C97' }}>Else</span>
                       </h1>
                       <div className="tv-slider-text pb-30">
                         <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px', maxWidth: '600px', lineHeight: 1.8 }}>
@@ -54,7 +54,7 @@ export default function HeroHomeOne() {
                         </p>
                       </div>
                       <div className="tv-slider-btn">
-                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#2B4DFF', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
+                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#047C97', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
                           <span className="btn-wrap">
                             <span className="btn-text1">Get Started Now</span>
                             <span className="btn-text2">Get Started Now</span>
@@ -82,11 +82,11 @@ export default function HeroHomeOne() {
                 <div className="row">
                   <div className="col-xl-7 col-lg-8">
                     <div className="tv-slider-content z-index-1">
-                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #2B4DFF', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
+                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #4EB985', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
                         Innovating for the Future
                       </span>
                       <h1 className="tv-slider-title p-relative" style={{ fontSize: '72px', color: '#fff', fontWeight: 900, marginBottom: '25px', lineHeight: 1.1 }}>
-                        Expertise &amp; <span style={{ color: '#2B4DFF' }}>Creativity</span> <br /> In Harmony
+                        Expertise &amp; <span style={{ color: '#047C97' }}>Creativity</span> <br /> In Harmony
                       </h1>
                       <div className="tv-slider-text pb-30">
                         <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px', maxWidth: '600px', lineHeight: 1.8 }}>
@@ -96,7 +96,7 @@ export default function HeroHomeOne() {
                         </p>
                       </div>
                       <div className="tv-slider-btn">
-                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#2B4DFF', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
+                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#047C97', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
                           <span className="btn-wrap">
                             <span className="btn-text1">Let's Talk With Us</span>
                             <span className="btn-text2">Let's Talk With Us</span>
@@ -124,11 +124,11 @@ export default function HeroHomeOne() {
                 <div className="row">
                   <div className="col-xl-7 col-lg-8">
                     <div className="tv-slider-content z-index-1">
-                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #2B4DFF', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
+                      <span className="tv-slider-subtitle" style={{ color: '#fff', borderLeft: '3px solid #4EB985', paddingLeft: '15px', fontWeight: 600, letterSpacing: '1px' }}>
                         Your Tech Partner
                       </span>
                       <h1 className="tv-slider-title p-relative" style={{ fontSize: '72px', color: '#fff', fontWeight: 900, marginBottom: '25px', lineHeight: 1.1 }}>
-                        Your Vision, Our <br /> <span style={{ color: '#2B4DFF' }}>Excellence</span>
+                        Your Vision, Our <br /> <span style={{ color: '#047C97' }}>Excellence</span>
                       </h1>
                       <div className="tv-slider-text pb-30">
                         <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px', maxWidth: '600px', lineHeight: 1.8 }}>
@@ -138,7 +138,7 @@ export default function HeroHomeOne() {
                         </p>
                       </div>
                       <div className="tv-slider-btn">
-                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#2B4DFF', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
+                        <Link to="/contact" className="tv-btn-primary" style={{ background: '#047C97', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
                           <span className="btn-wrap">
                             <span className="btn-text1">Discover Edgiss</span>
                             <span className="btn-text2">Discover Edgiss</span>

@@ -50,7 +50,7 @@ export default function TeamHomeOne() {
               >
                 <SwiperSlide className="swiper-slide">
                   <div className="single-team-item" style={{ borderRadius: '24px', overflow: 'hidden', background: '#fff', boxShadow: '0 20px 50px rgba(43,77,255,0.08)' }}>
-                    <img src="assets/img/team/team-1-1.png" alt="" style={{ width: '100%' }} />
+                    <img src="/assets/img/team/team-1-1.png" alt="" style={{ width: '100%' }} />
                     <div className="team-social" style={{ background: 'rgba(43,77,255,0.9)' }}>
                       <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                       <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
@@ -73,7 +73,7 @@ export default function TeamHomeOne() {
                 {/* Repeat for other slides with blue styling */}
                 <SwiperSlide className="swiper-slide">
                   <div className="single-team-item" style={{ borderRadius: '24px', overflow: 'hidden', background: '#fff', boxShadow: '0 20px 50px rgba(43,77,255,0.08)' }}>
-                    <img src="assets/img/team/team-1-2.png" alt="" style={{ width: '100%' }} />
+                    <img src="/assets/img/team/team-1-2.png" alt="" style={{ width: '100%' }} />
                     <div className="team-social" style={{ background: 'rgba(43,77,255,0.9)' }}>
                       <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                       <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
@@ -95,7 +95,7 @@ export default function TeamHomeOne() {
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                   <div className="single-team-item" style={{ borderRadius: '24px', overflow: 'hidden', background: '#fff', boxShadow: '0 20px 50px rgba(43,77,255,0.08)' }}>
-                    <img src="assets/img/team/team-1-3.png" alt="" style={{ width: '100%' }} />
+                    <img src="/assets/img/team/team-1-3.png" alt="" style={{ width: '100%' }} />
 
                     <div className="team-content d-flex justify-content-between align-items-center" style={{ padding: '25px' }}>
                       <div>

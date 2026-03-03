@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 export default function TestimonialHomeTwo() {
   return (
-    <div className="tv-testimonial-area2 pt-130 pb-130">
+    <div className="tv-testimonial-area2  pb-130">
       <div className="container">
         <div className="row align-items-end mb-60">
           <div className="col-xl-5 col-lg-5">
@@ -16,7 +16,7 @@ export default function TestimonialHomeTwo() {
                 Testimonial
               </span>
               <h4 className="tv-section-title  tv-spltv-text tv-spltv-in-right">
-                What Our Clients Ask About Techor
+                What Our Clients Ask About Mangal Tech
               </h4>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-1.png"
+                        src="/assets/img/testimonial/test-avatar-2-1.png"
                         alt=""
                       />
                     </div>
@@ -156,7 +156,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-2.png"
+                        src="/assets/img/testimonial/test-avatar-2-2.png"
                         alt=""
                       />
                     </div>
@@ -206,7 +206,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-3.png"
+                        src="/assets/img/testimonial/test-avatar-2-3.png"
                         alt=""
                       />
                     </div>
@@ -257,7 +257,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-1.png"
+                        src="/assets/img/testimonial/test-avatar-2-1.png"
                         alt=""
                       />
                     </div>
@@ -307,7 +307,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-2.png"
+                        src="/assets/img/testimonial/test-avatar-2-2.png"
                         alt=""
                       />
                     </div>
@@ -357,7 +357,7 @@ export default function TestimonialHomeTwo() {
                   <div className="author-info">
                     <div>
                       <img
-                        src="assets/img/testimonial/test-avatar-2-3.png"
+                        src="/assets/img/testimonial/test-avatar-2-3.png"
                         alt=""
                       />
                     </div>

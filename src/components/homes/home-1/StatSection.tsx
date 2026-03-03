@@ -13,8 +13,8 @@ const stats = [
                 <path d="M21 7.5l-1.5 1.5" />
                 <defs>
                     <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#2B4DFF" />
-                        <stop offset="100%" stopColor="#1a3ae0" />
+                        <stop offset="0%" stopColor="#047C97" />
+                        <stop offset="100%" stopColor="#036278" />
                     </linearGradient>
                 </defs>
             </svg>
@@ -98,7 +98,7 @@ export default function StatSection() {
                 transform: 'translate(-50%, -50%)',
                 fontSize: '300px',
                 fontWeight: 900,
-                color: 'rgba(43, 77, 255, 0.02)',
+                color: 'rgba(4, 124, 151, 0.024)',
                 zIndex: 0,
                 pointerEvents: 'none',
                 whiteSpace: 'nowrap',
@@ -108,8 +108,8 @@ export default function StatSection() {
             </h2>
 
             {/* Modern floating shapes */}
-            <div style={{ position: 'absolute', top: '10%', right: '5%', width: '300px', height: '300px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(43, 77, 255, 0.05) 0%, transparent 70%)', zIndex: 0 }} />
-            <div style={{ position: 'absolute', bottom: '10%', left: '5%', width: '250px', height: '250px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(43, 77, 255, 0.03) 0%, transparent 70%)', zIndex: 0 }} />
+            <div style={{ position: 'absolute', top: '10%', right: '5%', width: '300px', height: '300px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(4, 124, 151, 0.05) 0%, transparent 70%)', zIndex: 0 }} />
+            <div style={{ position: 'absolute', bottom: '10%', left: '5%', width: '250px', height: '250px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(78, 185, 133, 0.04) 0%, transparent 70%)', zIndex: 0 }} />
 
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <div className="row justify-content-center">
@@ -132,7 +132,7 @@ export default function StatSection() {
                                 }}
                                 onMouseEnter={(e) => {
                                     e.currentTarget.style.transform = 'translateY(-5px)';
-                                    e.currentTarget.style.boxShadow = '0 20px 50px rgba(43, 77, 255, 0.08)';
+                                    e.currentTarget.style.boxShadow = '0 20px 50px rgba(4, 124, 151, 0.08)';
                                 }}
                                 onMouseLeave={(e) => {
                                     e.currentTarget.style.transform = 'translateY(0)';
@@ -147,7 +147,7 @@ export default function StatSection() {
                                     alignItems: 'center',
                                     justifyContent: 'center',
                                     borderRadius: '24px 24px 0 24px',
-                                    boxShadow: '0 10px 25px rgba(43, 77, 255, 0.08)',
+                                    boxShadow: '0 10px 25px rgba(4, 124, 151, 0.08)',
                                     flexShrink: 0
                                 }}>
                                     {stat.icon}
@@ -179,7 +179,7 @@ export default function StatSection() {
                                 }}
                                 onMouseEnter={(e) => {
                                     e.currentTarget.style.transform = 'translateY(-3px)';
-                                    e.currentTarget.style.boxShadow = '0 15px 35px rgba(43, 77, 255, 0.06)';
+                                    e.currentTarget.style.boxShadow = '0 15px 35px rgba(4, 124, 151, 0.06)';
                                 }}
                                 onMouseLeave={(e) => {
                                     e.currentTarget.style.transform = 'translateY(0)';

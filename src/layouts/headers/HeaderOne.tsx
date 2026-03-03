@@ -25,8 +25,9 @@ export default function HeaderOne() {
                   <div className="tv-header-logo">
                     <Link to="/">
                       <img
-                        src="/assets/img/logo/logo-white.png"
+                        src="/assets/img/logo/logo-main.png"
                         alt="techor-logo"
+                        style={{ maxWidth: '240px', height: 'auto' }}
                       />
                     </Link>
                   </div>
@@ -46,7 +47,7 @@ export default function HeaderOne() {
                       className="d-none d-xl-flex align-items-center"
                       style={{
                         background: '#ffffff',
-                        color: '#2B4DFF',
+                        color: '#4EB985',
                         borderRadius: '50px',
                         padding: '10px 22px',
                         fontWeight: 700,
@@ -54,18 +55,18 @@ export default function HeaderOne() {
                         textDecoration: 'none',
                         gap: '8px',
                         whiteSpace: 'nowrap',
-                        boxShadow: '0 4px 15px rgba(43,77,255,0.15)',
+                        boxShadow: '0 4px 15px rgba(78,185,133,0.15)',
                         transition: 'transform 0.2s, box-shadow 0.2s',
-                        border: '2px solid #2B4DFF',
+                        border: '2px solid #4EB985',
                       }}
                       onMouseEnter={e => {
                         (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)';
-                        (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(43,77,255,0.25)';
-                        (e.currentTarget as HTMLElement).style.background = '#f0f3ff';
+                        (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(78,185,133,0.25)';
+                        (e.currentTarget as HTMLElement).style.background = '#f0fbf6';
                       }}
                       onMouseLeave={e => {
                         (e.currentTarget as HTMLElement).style.transform = 'translateY(0)';
-                        (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 15px rgba(43,77,255,0.15)';
+                        (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 15px rgba(78,185,133,0.15)';
                         (e.currentTarget as HTMLElement).style.background = '#ffffff';
                       }}
                     >
@@ -78,7 +79,7 @@ export default function HeaderOne() {
                       to="/contact"
                       className="d-none d-md-flex align-items-center"
                       style={{
-                        background: '#2B4DFF',
+                        background: '#047C97',
                         color: '#ffffff',
                         borderRadius: '50px',
                         padding: '10px 22px',
@@ -86,19 +87,19 @@ export default function HeaderOne() {
                         fontSize: '15px',
                         textDecoration: 'none',
                         whiteSpace: 'nowrap',
-                        boxShadow: '0 4px 15px rgba(43,77,255,0.35)',
+                        boxShadow: '0 4px 15px rgba(4,124,151,0.35)',
                         transition: 'transform 0.2s, box-shadow 0.2s, background 0.2s',
-                        border: '2px solid #2B4DFF',
+                        border: '2px solid #047C97',
                       }}
                       onMouseEnter={e => {
                         (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)';
-                        (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(43,77,255,0.5)';
-                        (e.currentTarget as HTMLElement).style.background = '#1a3ae0';
+                        (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(4,124,151,0.5)';
+                        (e.currentTarget as HTMLElement).style.background = '#036278';
                       }}
                       onMouseLeave={e => {
                         (e.currentTarget as HTMLElement).style.transform = 'translateY(0)';
-                        (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 15px rgba(43,77,255,0.35)';
-                        (e.currentTarget as HTMLElement).style.background = '#2B4DFF';
+                        (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 15px rgba(4,124,151,0.35)';
+                        (e.currentTarget as HTMLElement).style.background = '#047C97';
                       }}
                     >
                       Request A Quote
@@ -110,7 +111,7 @@ export default function HeaderOne() {
                         className="tv-menu-bar"
                         onClick={() => setMenuOpen(true)}
                       >
-                        <span>
+                        <span style={{ background: '#036278', color: '#ffffff', border: '1px solid #036278' }}>
                           <i className="fa-solid fa-bars-staggered"></i>
                         </span>
                       </button>

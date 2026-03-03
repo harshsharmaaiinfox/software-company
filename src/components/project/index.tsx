@@ -9,7 +9,7 @@ export default function Project() {
     <Wrapper>
       <HeaderOne />
       <main>
-        <Breadcrumb title="Project" subtitle="Project" />
+        <Breadcrumb title="Our Projects" subtitle="Showcasing Our Work" />
         <ProjectArea />
       </main>
       <FooterOne />

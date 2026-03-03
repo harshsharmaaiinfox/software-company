@@ -21,7 +21,7 @@ export default function IndustryServeHomeOne() {
                 <div className="row align-items-center">
                     <div className="col-xl-4 col-lg-5">
                         <div className="industry-content pe-xl-4">
-                            <span className="tv-section-subtitle mb-20 d-inline-block" style={{ color: '#2B4DFF', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', fontSize: '14px' }}>
+                            <span className="tv-section-subtitle mb-20 d-inline-block" style={{ color: '#047C97', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', fontSize: '14px' }}>
                                 INDUSTRIES WE SERVE
                             </span>
                             <h2 style={{ fontSize: '44px', fontWeight: 900, color: '#1a1a2e', lineHeight: 1.2, marginBottom: '25px' }}>
@@ -43,7 +43,7 @@ export default function IndustryServeHomeOne() {
                                             padding: '35px 20px',
                                             borderRadius: '30px 30px 0 30px',
                                             textAlign: 'center',
-                                            boxShadow: '0 10px 40px rgba(43,77,255,0.04)',
+                                            boxShadow: '0 10px 40px rgba(4,124,151,0.04)',
                                             border: '1px solid #f0f3ff',
                                             transition: 'all 0.3s ease',
                                             height: '100%',
@@ -55,8 +55,8 @@ export default function IndustryServeHomeOne() {
                                         }}
                                         onMouseEnter={(e) => {
                                             e.currentTarget.style.transform = 'translateY(-10px)';
-                                            e.currentTarget.style.background = '#2B4DFF';
-                                            e.currentTarget.style.borderColor = '#2B4DFF';
+                                            e.currentTarget.style.background = '#047C97';
+                                            e.currentTarget.style.borderColor = '#047C97';
                                             const icon = e.currentTarget.querySelector('i') as HTMLElement;
                                             const text = e.currentTarget.querySelector('h5') as HTMLElement;
                                             if (icon) icon.style.color = '#fff';
@@ -68,7 +68,7 @@ export default function IndustryServeHomeOne() {
                                             e.currentTarget.style.borderColor = '#f0f3ff';
                                             const icon = e.currentTarget.querySelector('i') as HTMLElement;
                                             const text = e.currentTarget.querySelector('h5') as HTMLElement;
-                                            if (icon) icon.style.color = '#2B4DFF';
+                                            if (icon) icon.style.color = '#047C97';
                                             if (text) text.style.color = '#1a1a2e';
                                         }}
                                     >
@@ -76,7 +76,7 @@ export default function IndustryServeHomeOne() {
                                             className="icon-box mb-20"
                                             style={{
                                                 fontSize: '36px',
-                                                color: '#2B4DFF',
+                                                color: '#047C97',
                                                 transition: 'all 0.3s ease'
                                             }}
                                         >

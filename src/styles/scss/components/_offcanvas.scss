@@ -38,7 +38,7 @@
   width: 480px;
   bottom: 0;
   box-shadow: 0 16px -32px 0 rgba(0, 0, 0, 0.8);
-  background-color: var(--tv-heading-primary);
+  background-color: #036278;
   z-index: 9999;
   padding: 50px;
   scrollbar-width: none;
@@ -159,7 +159,7 @@
         line-height: 50px;
         text-align: center;
         font-size: 18px;
-        background-color: var(--tv-theme-1);
+        background-color: #4EB985;
         color: var(--tv-common-white);
         margin-right: 15px;
         transition: 0.3s;
@@ -171,7 +171,7 @@
         }
 
         &:hover {
-          background-color: var(--tv-theme-1);
+          background-color: #047C97;
           color: var(--tv-common-white);
         }
       }
@@ -209,7 +209,7 @@
       & a {
         height: 50px;
         width: 50px;
-        background-color: var(--tv-theme-1);
+        background-color: #4EB985;
         color: var(--tv-common-white);
         display: inline-block;
         text-align: center;
@@ -241,7 +241,7 @@
         }
 
         &:hover {
-          color: var(--tv-theme-1);
+          color: #4EB985;
         }
       }
     }
@@ -273,7 +273,7 @@
     display: none;
   }
 
-  & .tv-megamenu-list li:hover > a {
+  & .tv-megamenu-list li:hover>a {
     padding-left: 0px;
     font-weight: 400;
   }
@@ -282,8 +282,8 @@
     margin-bottom: 0;
   }
 
-  & .tv-menu-mobile ul li > a,
-  .tv-category-mobile-menu ul li > a {
+  & .tv-menu-mobile ul li>a,
+  .tv-category-mobile-menu ul li>a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 

@@ -1,5 +1,4 @@
 
-
 export default function CtaHomeOne() {
   return (
     <div
@@ -12,28 +11,28 @@ export default function CtaHomeOne() {
         borderTop: '1px solid #eef2ff'
       }}
     >
-      {/* Decorative Blobs - Blue/White Theme */}
-      {/* Left Bottom Blob (replacing yellow) */}
+      {/* Decorative Blobs - Teal Theme */}
+      {/* Left Bottom Blob */}
       <div style={{
         position: 'absolute',
         bottom: '-30px',
         left: '-50px',
         width: '300px',
         height: '300px',
-        background: '#2B4DFF',
+        background: '#047C97',
         opacity: 0.05,
         borderRadius: '40% 60% 70% 30% / 40% 50% 60% 70%',
         filter: 'blur(40px)'
       }}></div>
 
-      {/* Right Bottom Blob (replacing green) */}
+      {/* Right Bottom Blob */}
       <div style={{
         position: 'absolute',
         bottom: '-20px',
         right: '-40px',
         width: '250px',
         height: '280px',
-        background: '#2B4DFF',
+        background: '#047C97',
         opacity: 0.08,
         borderRadius: '70% 30% 30% 70% / 60% 40% 60% 40%',
         filter: 'blur(30px)'
@@ -48,18 +47,18 @@ export default function CtaHomeOne() {
         height: '120px',
         background: '#fff',
         borderRadius: '50%',
-        boxShadow: '0 15px 40px rgba(43,77,255,0.06)',
+        boxShadow: '0 15px 40px rgba(4,124,151,0.06)',
         zIndex: 0
       }}></div>
 
-      {/* Top Right Concentric Lines (replacing purple pattern) */}
+      {/* Top Right Concentric Lines */}
       <div style={{ position: 'absolute', top: '5%', right: '12%', opacity: 0.08, zIndex: 0 }}>
         <svg width="180" height="180" viewBox="0 0 180 180">
-          <circle cx="90" cy="90" r="30" stroke="#2B4DFF" strokeWidth="1" fill="none" />
-          <circle cx="90" cy="90" r="45" stroke="#2B4DFF" strokeWidth="1" fill="none" />
-          <circle cx="90" cy="90" r="60" stroke="#2B4DFF" strokeWidth="1" fill="none" />
-          <circle cx="90" cy="90" r="75" stroke="#2B4DFF" strokeWidth="1" fill="none" />
-          <circle cx="90" cy="90" r="90" stroke="#2B4DFF" strokeWidth="1" fill="none" />
+          <circle cx="90" cy="90" r="30" stroke="#047C97" strokeWidth="1" fill="none" />
+          <circle cx="90" cy="90" r="45" stroke="#047C97" strokeWidth="1" fill="none" />
+          <circle cx="90" cy="90" r="60" stroke="#047C97" strokeWidth="1" fill="none" />
+          <circle cx="90" cy="90" r="75" stroke="#047C97" strokeWidth="1" fill="none" />
+          <circle cx="90" cy="90" r="90" stroke="#047C97" strokeWidth="1" fill="none" />
         </svg>
       </div>
 
@@ -71,7 +70,7 @@ export default function CtaHomeOne() {
                 className="wow fadeInUp"
                 data-wow-delay=".3s"
                 style={{
-                  color: '#2B4DFF',
+                  color: '#047C97',
                   fontWeight: 700,
                   textTransform: 'uppercase',
                   letterSpacing: '2px',
@@ -102,8 +101,8 @@ export default function CtaHomeOne() {
                   href="/contact"
                   style={{
                     background: '#fff',
-                    color: '#2B4DFF',
-                    border: '1px solid #2B4DFF',
+                    color: '#047C97',
+                    border: '1px solid #047C97',
                     borderRadius: '50px',
                     padding: '16px 45px',
                     fontWeight: 700,
@@ -112,18 +111,18 @@ export default function CtaHomeOne() {
                     alignItems: 'center',
                     gap: '12px',
                     fontSize: '16px',
-                    boxShadow: '0 10px 30px rgba(43,77,255,0.06)',
+                    boxShadow: '0 10px 30px rgba(4,124,151,0.06)',
                     transition: 'all 0.3s'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.background = '#2B4DFF';
+                    e.currentTarget.style.background = '#047C97';
                     e.currentTarget.style.color = '#fff';
-                    e.currentTarget.style.boxShadow = '0 15px 35px rgba(43,77,255,0.2)';
+                    e.currentTarget.style.boxShadow = '0 15px 35px rgba(4,124,151,0.2)';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.background = '#fff';
-                    e.currentTarget.style.color = '#2B4DFF';
-                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(43,77,255,0.06)';
+                    e.currentTarget.style.color = '#047C97';
+                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(4,124,151,0.06)';
                   }}
                 >
                   Estimate Project <i className="fa-solid fa-chevron-right" style={{ fontSize: '13px' }}></i>
@@ -135,7 +134,7 @@ export default function CtaHomeOne() {
                 <a
                   href="tel:8368068740"
                   style={{
-                    color: '#2B4DFF',
+                    color: '#047C97',
                     fontSize: '22px',
                     fontWeight: 800,
                     textDecoration: 'none',

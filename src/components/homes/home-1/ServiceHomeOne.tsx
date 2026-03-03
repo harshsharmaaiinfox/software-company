@@ -70,13 +70,13 @@ export default function ServiceHomeOne() {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-8 text-center">
             <div className="tv-section-title-box mb-60">
-              <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right" style={{ color: '#2B4DFF', fontWeight: 700 }}>
+              <span className="tv-section-subtitle tv-spltv-text tv-spltv-in-right wow itfadeUp" data-wow-delay=".3s" style={{ color: '#047C97', fontWeight: 700 }}>
                 Our 360° Expertise
               </span>
-              <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right" style={{ fontSize: '40px', color: '#1a1a2e' }}>
+              <h4 className="tv-section-title pb-20 tv-spltv-text tv-spltv-in-right wow itfadeUp" data-wow-delay=".5s" style={{ fontSize: '40px', color: '#1a1a2e' }}>
                 Smart Digital Solutions for Your Business Growth
               </h4>
-              <p style={{ color: '#666', fontSize: '16px' }}>
+              <p className="wow itfadeUp" data-wow-delay=".7s" style={{ color: '#666', fontSize: '16px' }}>
                 We combine creativity and technology to deliver results that matter.
                 Explore our range of professional services designed to elevate your brand.
               </p>
@@ -97,7 +97,7 @@ export default function ServiceHomeOne() {
                   background: '#fff',
                   padding: '40px 30px',
                   borderRadius: '20px',
-                  boxShadow: '0 10px 40px rgba(43,77,255,0.05)',
+                  boxShadow: '0 10px 40px rgba(4,124,151,0.05)',
                   transition: 'all 0.3s ease',
                   height: '100%',
                   border: '1px solid #eef2ff',
@@ -112,7 +112,7 @@ export default function ServiceHomeOne() {
                   right: '10px',
                   fontSize: '80px',
                   fontWeight: 900,
-                  color: 'rgba(43,77,255,0.03)',
+                  color: 'rgba(4,124,151,0.03)',
                   zIndex: 0,
                   pointerEvents: 'none'
                 }}>
@@ -124,13 +124,13 @@ export default function ServiceHomeOne() {
                   style={{
                     width: '70px',
                     height: '70px',
-                    background: 'rgba(43,77,255,0.08)',
+                    background: 'rgba(78,185,133,0.08)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     borderRadius: '15px',
                     marginBottom: '25px',
-                    color: '#2B4DFF',
+                    color: '#047C97',
                     position: 'relative',
                     zIndex: 1
                   }}
@@ -148,7 +148,7 @@ export default function ServiceHomeOne() {
                   className="tv-normal-btn"
                   style={{
                     fontWeight: 700,
-                    color: '#2B4DFF',
+                    color: '#047C97',
                     textDecoration: 'none',
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -165,6 +165,8 @@ export default function ServiceHomeOne() {
         <div className="row">
           <div className="col-12 text-center mt-50">
             <div
+              className="wow itfadeUp"
+              data-wow-delay=".8s"
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -174,7 +176,7 @@ export default function ServiceHomeOne() {
                 background: '#fff',
                 padding: '15px 40px',
                 borderRadius: '100px',
-                boxShadow: '0 10px 40px rgba(43,77,255,0.06)',
+                boxShadow: '0 10px 40px rgba(4,124,151,0.06)',
                 border: '1px solid #f0f3ff'
               }}
             >
@@ -184,7 +186,7 @@ export default function ServiceHomeOne() {
               <Link
                 to="/contact"
                 style={{
-                  background: 'linear-gradient(90deg, #2B4DFF, #1a3ae0)',
+                  background: 'linear-gradient(90deg, #036278, #047C97)',
                   padding: '12px 35px',
                   borderRadius: '50px',
                   fontSize: '15px',
@@ -195,7 +197,7 @@ export default function ServiceHomeOne() {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '8px',
-                  boxShadow: '0 8px 20px rgba(43, 77, 255, 0.25)',
+                  boxShadow: '0 8px 20px rgba(4, 124, 151, 0.25)',
                   transition: 'transform 0.2s ease'
                 }}
                 onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}

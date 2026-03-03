@@ -21,7 +21,7 @@ export default function OffCanvasArea({
           </div>
           <div className="itoffcanvas__logo">
             <Link to="/">
-              <img src="assets/img/logo/logo-white.png" alt="" />
+              <img src="/assets/img/logo-white.png" alt="MangalTech Logo" style={{ maxWidth: '220px', height: 'auto' }} />
             </Link>
           </div>
           <div className="itoffcanvas__text">
