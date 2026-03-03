@@ -57,14 +57,14 @@ const EcommerceProcess = () => {
                             Our Professional E-Commerce Roadmap
                         </h2>
                         <p style={{ color: '#585b6f', fontSize: '16px', lineHeight: '1.7' }}>
-                            We follow a data-driven process designed to maximize your online store's conversion rate. 
+                            We follow a data-driven process designed to maximize your online store's conversion rate.
                             From the initial strategy to the final post-launch optimization, every step is executed with precision.
                         </p>
                     </div>
                 </div>
 
                 <div className="process-steps">
-                    {steps.map((step, idx) => (
+                    {steps.map((step) => (
                         <div key={step.id} className={`row align-items-center mb-80 ${step.layout === 'right' ? 'flex-row-reverse' : ''}`}>
                             <div className="col-lg-6">
                                 <div className={`process-img wow ${step.layout === 'left' ? 'fadeInLeft' : 'fadeInRight'}`} data-wow-delay=".2s" style={{
@@ -106,7 +106,8 @@ const EcommerceProcess = () => {
                 </div>
             </div>
 
-            <style dangerouslySetInnerHTML={{ __html: `
+            <style dangerouslySetInnerHTML={{
+                __html: `
                 @media (max-width: 991px) {
                     .process-content { pl-0; pr-0; mt-40; text-align: center; }
                     .step-number { margin-left: auto; margin-right: auto; }

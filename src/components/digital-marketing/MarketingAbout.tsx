@@ -62,15 +62,15 @@ const MarketingAbout = () => {
                             <p style={{ color: '#585b6f', fontSize: '17px', lineHeight: '1.8', marginBottom: '40px' }}>
                                 We believe in the power of digital synergy. By blending data, design, and technology, we help businesses like yours scale to new heights. Our mission is to make your brand the first choice in your industry.
                             </p>
-                            <Link to="/about" className="tv-btn-orange" style={{
-                                background: '#ff7442',
+                            <Link to="/about" className="tv-btn-teal" style={{
+                                background: '#036278',
                                 color: '#fff',
                                 padding: '18px 45px',
                                 borderRadius: '50px',
                                 fontWeight: '800',
                                 textDecoration: 'none',
                                 display: 'inline-block',
-                                boxShadow: '0 10px 25px rgba(255, 116, 66, 0.3)',
+                                boxShadow: '0 10px 25px rgba(3, 98, 120, 0.3)',
                                 transition: 'all 0.3s'
                             }}>
                                 LEARN MORE <i className="fa-solid fa-arrow-right-long ms-3"></i>
@@ -97,7 +97,7 @@ const MarketingAbout = () => {
                                             height: '28px',
                                             minWidth: '28px',
                                             borderRadius: '50%',
-                                            background: '#ff7442',
+                                            background: '#4EB985',
                                             color: '#fff',
                                             display: 'flex',
                                             alignItems: 'center',
@@ -158,8 +158,8 @@ const MarketingAbout = () => {
 
             <style dangerouslySetInnerHTML={{
                 __html: `
-                .tv-btn-orange:hover {
-                    background: #036278 !important;
+                .tv-btn-teal:hover {
+                    background: #4EB985 !important;
                     transform: translateY(-5px);
                     box-shadow: 0 15px 35px rgba(3, 98, 120, 0.2) !important;
                 }
