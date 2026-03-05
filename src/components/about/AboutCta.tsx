@@ -74,7 +74,7 @@ const AboutCta = () => {
                                     alignItems: 'center'
                                 }}>
                                     <i className="fa-solid fa-phone-volume me-2" style={{ color: '#4EB985' }}></i>
-                                    (+91) 836-8068-740
+                                    (+91) 9528323105
                                 </a>
                             </div>
                         </div>

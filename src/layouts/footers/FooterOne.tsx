@@ -70,9 +70,9 @@ export default function FooterOne() {
                   </h4>
                   <div className="tv-footer-widget-menu mb-40">
                     <ul style={{ listStyle: 'none', padding: 0 }}>
-                      <li style={{ marginBottom: '10px' }}><Link to="/faq" style={linkStyle}>TERMS & CONDITIONS</Link></li>
-                      <li style={{ marginBottom: '10px' }}><Link to="/faq" style={linkStyle}>PRIVACY POLICY</Link></li>
-                      <li style={{ marginBottom: '10px' }}><Link to="/faq" style={linkStyle}>DISCLAIMER</Link></li>
+                      <li style={{ marginBottom: '10px' }}><Link to="/terms-conditions" style={linkStyle}>TERMS & CONDITIONS</Link></li>
+                      <li style={{ marginBottom: '10px' }}><Link to="/privacy-policy" style={linkStyle}>PRIVACY POLICY</Link></li>
+                      <li style={{ marginBottom: '10px' }}><Link to="/disclaimer" style={linkStyle}>DISCLAIMER</Link></li>
                     </ul>
                   </div>
 
@@ -82,7 +82,7 @@ export default function FooterOne() {
                   <div className="tv-footer-widget-menu">
                     <ul style={{ listStyle: 'none', padding: 0 }}>
                       <li style={{ marginBottom: '10px' }}><Link to="/about" style={linkStyle}>ABOUT US</Link></li>
-                      {/* <li style={{ marginBottom: '10px' }}><Link to="/service" style={linkStyle}>OUR ADVANTAGES</Link></li> */}
+                      <li style={{ marginBottom: '10px' }}><Link to="/faq" style={linkStyle}>FAQ</Link></li>
                       <li style={{ marginBottom: '10px' }}><Link to="/blog-grid" style={linkStyle}>BLOG</Link></li>
                     </ul>
                   </div>
@@ -104,7 +104,7 @@ export default function FooterOne() {
                   </div>
                   <div>
                     <span style={{ display: 'block', color: 'rgba(255,255,255,0.8)', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px' }}>YOU MAY CALL US AT</span>
-                    <a href="tel:8368068740" style={{ color: '#fff', fontSize: '18px', fontWeight: 700, textDecoration: 'none' }}>(+91) 836 8068 740</a>
+                    <a href="tel:9528323105" style={{ color: '#fff', fontSize: '18px', fontWeight: 700, textDecoration: 'none' }}>(+91) 9528323105</a>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function FooterOne() {
                   </div>
                   <div>
                     <span style={{ display: 'block', color: 'rgba(255,255,255,0.8)', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px' }}>YOU MAY EMAIL US AT</span>
-                    <a href="mailto:contact@mangaltech.in" style={{ color: '#fff', fontSize: '18px', fontWeight: 700, textDecoration: 'none' }}>contact@mangaltech.in</a>
+                    <a href="mailto:contact@mangaltech.in" style={{ color: '#fff', fontSize: '18px', fontWeight: 700, textDecoration: 'none' }}>info@mangaltech.com</a>
                   </div>
                 </div>
               </div>
@@ -134,7 +134,6 @@ export default function FooterOne() {
                       <SocialIcon icon="fa-facebook-f" />
                       <SocialIcon icon="fa-instagram" />
                       <SocialIcon icon="fa-linkedin-in" />
-                      <SocialIcon icon="fa-youtube" />
                     </div>
                   </div>
                 </div>
@@ -149,7 +148,7 @@ export default function FooterOne() {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <p className="mb-0" style={{ color: 'rgba(255,255,255,0.6)', fontSize: '13px' }}>
-                  © 2015-2023. All Rights Reserved By THE Mangal Tech
+                  © 2025. All Rights Reserved By THE Mangal Tech
                 </p>
               </div>
             </div>

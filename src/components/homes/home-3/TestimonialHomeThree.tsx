@@ -47,6 +47,33 @@ const settings = {
   },
 };
 
+const testimonials = [
+  {
+    text: "\u201C Mangal Tech transformed our outdated website into a high-converting masterpiece. Their blend of creativity and technical expertise is truly unmatched in the industry today. \u201D",
+    author: "Rajesh Kumar",
+    role: "CEO, Infotech Solutions India",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  },
+  {
+    text: "\u201C Working with Mangal Tech was a game-changer for our software project. They decoded our complex market demands and delivered a tailored solution ahead of schedule. \u201D",
+    author: "Priya Sharma",
+    role: "Founder, EduLearn EdTech",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  },
+  {
+    text: "\u201C Mangal Tech understood our vision for a pan-India e-commerce platform. Their team delivered a scalable solution that handles our growing customer base seamlessly. \u201D",
+    author: "Sneha Reddy",
+    role: "COO, ShopDesi",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  },
+  {
+    text: "\u201C As a startup in Bangalore, we needed partners who move fast without compromising quality. Mangal Tech exceeded our expectations and helped us launch ahead of schedule. \u201D",
+    author: "Vikram Singh",
+    role: "CTO, FinServe Innovations",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  }
+];
+
 export default function TestimonialHomeThree() {
   return (
     <div className="tv-testimonial-area3 pb-130 pt-130">
@@ -70,118 +97,31 @@ export default function TestimonialHomeThree() {
           modules={[Autoplay, Pagination]}
           className="swiper-container tv-testi-slider-active3"
         >
-          <SwiperSlide className="swiper-slide">
-            <div className="single-testi-slider-item style-3">
-              <div className="rating">
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
+          {testimonials.map((testi, index) => (
+            <SwiperSlide key={index} className="swiper-slide">
+              <div className="single-testi-slider-item style-3">
+                <div className="rating">
+                  <i className="fa-solid fa-star-sharp"></i>
+                  <i className="fa-solid fa-star-sharp"></i>
+                  <i className="fa-solid fa-star-sharp"></i>
+                  <i className="fa-solid fa-star-sharp"></i>
+                  <i className="fa-solid fa-star-sharp"></i>
+                </div>
+                <p>{testi.text}</p>
+                <div className="author-info d-flex align-items-center">
+                  <img src={testi.avatar} alt={testi.author} />
+                  <h5>
+                    {testi.author}<span>{testi.role}</span>
+                  </h5>
+                </div>
+                <img
+                  src="assets/img/testimonial/testi-shap-1.png"
+                  alt=""
+                  className="shap-icon"
+                />
               </div>
-              <p>
-                “ Working with several word themes and templates the last years
-                only can say this is best in every level use it for my reviews
-                that I have already are company and the reviews that I have
-                already are all excellent. Not only the design but the code ”
-              </p>
-              <div className="author-info d-flex  align-items-center">
-                <img src="assets/img/testimonial/testi-avatar-1.png" alt="" />
-                <h5>
-                  Marvin McKinney<span>Product Manager</span>
-                </h5>
-              </div>
-              <img
-                src="assets/img/testimonial/testi-shap-1.png"
-                alt=""
-                className="shap-icon"
-              />
-            </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <div className="single-testi-slider-item style-3">
-              <div className="rating">
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-              </div>
-              <p>
-                “ Working with several word themes and templates the last years
-                only can say this is best in every level use it for my reviews
-                that I have already are company and the reviews that I have
-                already are all excellent. Not only the design but the code ”
-              </p>
-              <div className="author-info d-flex  align-items-center">
-                <img src="assets/img/testimonial/testi-avatar-1.png" alt="" />
-                <h5>
-                  Marvin McKinney<span>Product Manager</span>
-                </h5>
-              </div>
-              <img
-                src="assets/img/testimonial/testi-shap-1.png"
-                alt=""
-                className="shap-icon"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <div className="single-testi-slider-item style-3">
-              <div className="rating">
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-              </div>
-              <p>
-                “ Working with several word themes and templates the last years
-                only can say this is best in every level use it for my reviews
-                that I have already are company and the reviews that I have
-                already are all excellent. Not only the design but the code ”
-              </p>
-              <div className="author-info  d-flex  align-items-center">
-                <img src="assets/img/testimonial/testi-avatar-1.png" alt="" />
-                <h5>
-                  Marvin McKinney<span>Product Manager</span>
-                </h5>
-              </div>
-              <img
-                src="assets/img/testimonial/testi-shap-1.png"
-                alt=""
-                className="shap-icon"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <div className="single-testi-slider-item style-3">
-              <div className="rating">
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-              </div>
-              <p>
-                “ Working with several word themes and templates the last years
-                only can say this is best in every level use it for my reviews
-                that I have already are company and the reviews that I have
-                already are all excellent. Not only the design but the code ”
-              </p>
-              <div className="author-info  d-flex  align-items-center">
-                <img src="assets/img/testimonial/testi-avatar-1.png" alt="" />
-                <h5>
-                  Marvin McKinney<span>Product Manager</span>
-                </h5>
-              </div>
-              <img
-                src="assets/img/testimonial/testi-shap-1.png"
-                alt=""
-                className="shap-icon"
-              />
-            </div>
-          </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

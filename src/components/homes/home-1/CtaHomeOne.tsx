@@ -146,7 +146,7 @@ export default function CtaHomeOne() {
                   onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
                   onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                 >
-                  <i className="fa-solid fa-phone" style={{ fontSize: '18px' }}></i> (+91) 836-8068-740
+                  <i className="fa-solid fa-phone" style={{ fontSize: '18px' }}></i> (+91) 9528323105
                 </a>
               </div>
             </div>

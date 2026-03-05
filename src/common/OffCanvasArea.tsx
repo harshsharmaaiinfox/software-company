@@ -21,13 +21,12 @@ export default function OffCanvasArea({
           </div>
           <div className="itoffcanvas__logo">
             <Link to="/">
-              <img src="/assets/img/logo-white.png" alt="MangalTech Logo" style={{ maxWidth: '220px', height: 'auto' }} />
+              <img src="/assets/img/logo-white.png" alt="MangalTech Logo" style={{ maxWidth: '260px', height: 'auto' }} />
             </Link>
           </div>
           <div className="itoffcanvas__text">
             <p>
-              Suspendisse interdum consectetur libero id. Fermentum leo vel orci
-              porta non. Euismod viverra nibh cras pulvinar suspen.
+              We are a team of experienced professionals who are dedicated to providing the best possible service to our clients.
             </p>
           </div>
           <div className="tv-menu-mobile d-xl-none">
@@ -43,7 +42,7 @@ export default function OffCanvasArea({
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="maito:hello@yourmail.com">hello@yourmail.com</a>
+                <a href="maito:info@mangaltech.com">info@mangaltech.com</a>
               </div>
             </div>
             <div className="tv-info-wrapper mb-20 d-flex align-items-center">
@@ -54,7 +53,7 @@ export default function OffCanvasArea({
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Phone</span>
-                <a href="tel:(00)45611227890">(00) 456 1122 7890</a>
+                <a href="tel:+91 9528323105">+91 9528323105</a>
               </div>
             </div>
             <div className="tv-info-wrapper mb-20 d-flex align-items-center">
@@ -69,7 +68,11 @@ export default function OffCanvasArea({
                   href="htits://www.google.com/maps/@37.4801311,22.8928877,3z"
                   target="_blank"
                 >
-                  Riverside 255, San Francisco, USA{' '}
+                 
+10th UNIT NO. 10104
+GAUR CITY MALL SECTOR 4 GREATER NOIDA
+Parthala Bridge Gaur City Mall
+Gautambuddha Nagar Uttar Pradesh 201318
                 </a>
               </div>
             </div>

@@ -191,7 +191,7 @@ const PricingSection = () => {
                                         {plan.btnText}
                                     </button>
                                     <div style={{ borderTop: '1px solid #eee', paddingTop: '15px', display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#888' }}>
-                                        <span>Call Us: +91 836-8068-740</span>
+                                        <span>Call Us: +91 9528323105</span>
                                         <span>Need Support</span>
                                     </div>
                                 </div>

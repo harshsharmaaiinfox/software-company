@@ -71,7 +71,7 @@ export default function HeaderOne() {
                       }}
                     >
                       <i className="fa-solid fa-phone" style={{ fontSize: '14px' }}></i>
-                      836-8068-740
+                      +91 9528323105
                     </a>
 
                     {/* Blue Request A Quote Button */}

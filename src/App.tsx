@@ -12,6 +12,9 @@ import Price from './components/price';
 import Project from './components/project';
 import ProjectDetails from './components/project-details';
 import Faq from './components/faq';
+import TermsConditions from './components/terms-conditions';
+import PrivacyPolicy from './components/privacy-policy';
+import Disclaimer from './components/disclaimer';
 import BlogGrid from './components/blog-grid';
 import BlogList from './components/blog-list';
 import BlogDetails from './components/blog-details';
@@ -48,6 +51,9 @@ const router = createBrowserRouter([
   { path: '/project', element: <Project /> },
   { path: '/project-details/:id', element: <ProjectDetails /> },
   { path: '/faq', element: <Faq /> },
+  { path: '/terms-conditions', element: <TermsConditions /> },
+  { path: '/privacy-policy', element: <PrivacyPolicy /> },
+  { path: '/disclaimer', element: <Disclaimer /> },
   { path: '/blog-grid', element: <BlogGrid /> },
   { path: '/blog-list', element: <BlogList /> },
   { path: '/blog-details', element: <BlogDetails /> },

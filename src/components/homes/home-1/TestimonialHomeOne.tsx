@@ -23,20 +23,32 @@ const settings = {
 const testimonials = [
   {
     text: "“ Mangal Tech transformed our outdated website into a high-converting masterpiece. Their blend of creativity and technical expertise is truly unmatched in the industry today. ”",
-    author: "Sarah Johnson",
-    role: "CEO, TechCorp Solutions",
+    author: "Rajesh Kumar",
+    role: "CEO, Infotech Solutions India",
     avatar: "assets/img/testimonial/testi-avatar-1.png"
   },
   {
     text: "“ Working with Mangal Tech was a game-changer for our software project. They decoded our complex market demands and delivered a tailored solution ahead of schedule. ”",
-    author: "Michael Chen",
-    role: "Founder, Innovate AI",
+    author: "Priya Sharma",
+    role: "Founder, EduLearn EdTech",
     avatar: "assets/img/testimonial/testi-avatar-1.png"
   },
   {
     text: "“ Their 360-degree approach to digital solutions is exactly what we needed. From branding to the final web application, every step was handled with creative excellence. ”",
-    author: "Elena Rodriguez",
-    role: "Director of Marketing, Global Brands",
+    author: "Amit Patel",
+    role: "Director, Global Exports Pvt Ltd",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  },
+  {
+    text: "\u201C Mangal Tech understood our vision for a pan-India e-commerce platform. Their team delivered a scalable solution that handles our growing customer base seamlessly. \u201D",
+    author: "Sneha Reddy",
+    role: "COO, ShopDesi",
+    avatar: "assets/img/testimonial/testi-avatar-1.png"
+  },
+  {
+    text: "\u201C As a startup in Bangalore, we needed partners who move fast without compromising quality. Mangal Tech exceeded our expectations and helped us launch ahead of schedule. \u201D",
+    author: "Vikram Singh",
+    role: "CTO, FinServe Innovations",
     avatar: "assets/img/testimonial/testi-avatar-1.png"
   }
 ];
