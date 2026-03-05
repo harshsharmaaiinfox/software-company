@@ -91,7 +91,7 @@ export default function HeroHomeOne() {
                       <div className="tv-slider-text pb-30">
                         <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px', maxWidth: '600px', lineHeight: 1.8 }}>
                           Experience the best creative output for your company
-                          with Edgiss! We deliver digital solutions that inspire,
+                          with Mangaltech! We deliver digital solutions that inspire,
                           engage, and convert.
                         </p>
                       </div>
@@ -134,14 +134,14 @@ export default function HeroHomeOne() {
                         <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px', maxWidth: '600px', lineHeight: 1.8 }}>
                           We bring expertise and creativity together under one
                           roof. Discover the best creative output for your
-                          business with Edgiss!
+                          business with Mangaltech!
                         </p>
                       </div>
                       <div className="tv-slider-btn">
                         <Link to="/contact" className="tv-btn-primary" style={{ background: '#047C97', padding: '18px 45px', borderRadius: '50px', border: 'none', fontSize: '16px', fontWeight: 700 }}>
                           <span className="btn-wrap">
-                            <span className="btn-text1">Discover Edgiss</span>
-                            <span className="btn-text2">Discover Edgiss</span>
+                            <span className="btn-text1">Discover Mangaltech</span>
+                            <span className="btn-text2">Discover Mangaltech</span>
                           </span>
                         </Link>
                       </div>

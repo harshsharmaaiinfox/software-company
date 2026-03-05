@@ -71,7 +71,7 @@ export default function AboutHomeOne() {
               >
                 <img
                   src="assets/img/about.png"
-                  alt="Edgiss Partnership"
+                  alt="Mangaltech Partnership"
                   style={{
                     width: '100%',
                     maxWidth: '440px',

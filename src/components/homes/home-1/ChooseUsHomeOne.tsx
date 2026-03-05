@@ -10,7 +10,7 @@ export default function ChooseUsHomeOne() {
         },
         {
             title: "Professionalism is our priority",
-            desc: "The interesting proficient conduct of Edgiss makes you want to try us since we don't pursue the benefits in actuality we work genuinely to satisfy our customers desires.",
+            desc: "The interesting proficient conduct of Mangaltech makes you want to try us since we don't pursue the benefits in actuality we work genuinely to satisfy our customers desires.",
             icon: "fa-light fa-briefcase",
             color: "#047C97"
         },
@@ -38,7 +38,7 @@ export default function ChooseUsHomeOne() {
                             What Makes You Choose Us?
                         </span>
                         <h2 style={{ fontSize: '46px', fontWeight: 900, color: '#1a1a2e', lineHeight: 1.2 }}>
-                            Why The <span style={{ color: '#047C97' }}>EDGISS</span> Ranked Top Among Leading <br />
+                            Why The <span style={{ color: '#047C97' }}>Mangaltech</span> Ranked Top Among Leading <br />
                             <span style={{ color: '#047C97' }}>Web & App Development</span> Companies
                         </h2>
                     </div>
@@ -106,7 +106,7 @@ export default function ChooseUsHomeOne() {
                             }}>
                                 <img
                                     src="assets/img/collab.png"
-                                    alt="Edgiss Business Partnership"
+                                    alt="Mangaltech Business Partnership"
                                     style={{ width: '100%', height: 'auto', display: 'block' }}
                                 />
                             </div>
